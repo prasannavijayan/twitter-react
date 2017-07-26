@@ -1,0 +1,25 @@
+{
+  "name": "twitter-react",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3",
+    "lodash": "^4.17.4",
+    "material-ui": "^0.18.5",
+    "oauth": "^0.9.15",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "react-scripts": "1.0.10",
+    "redux": "^3.7.1",
+    "redux-promise-middleware": "^4.3.0",
+    "redux-thunk": "^2.2.0",
+    "request": "^2.81.0",
+    "whatwg-fetch": "^2.0.3"
+  },
+  "scripts": {
+    "start": "node ./server/app",
+    "build": "react-scripts build"
+  }
+}
